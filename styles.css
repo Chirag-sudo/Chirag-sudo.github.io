@@ -1,0 +1,312 @@
+*{
+
+}
+body{
+    text-align: center;
+    overflow-x  : hidden;
+}
+header {
+    overflow-y: hidden;
+}
+:root{
+    --bggradiant:linear-gradiant(to bottom, #dd2476, #ff512f);
+}
+.nav .navbar{
+    overflow: hidden;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+.nav .navbar-brand{
+    margin-left: 2%;
+    font-size: 2rem;
+}
+.nav .navbar-nav .nav-items{
+    padding: 0.9em;
+}
+.nav a{
+    margin-right:  15px;
+    font-family: 'Sniglet';
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+header{
+    height: 80%;
+    width: auto;
+    background: rgb(242,69,1);
+background: linear-gradient(167deg, rgba(242,69,1,1) 17%, rgba(47,177,255,1) 87%);
+
+}
+.row{
+    margin-top: 10%;
+}
+
+.heading{
+    margin-top: 2%;
+}
+.nav .navbar-nav .nav-link{
+    color: whitesmoke;
+    
+}
+.nav .navbar-nav .nav-link:hover{
+    font-size: 1rem ;
+}
+.nav .navbar-nav .nav-link2{
+    color:black;
+}
+.nav .navbar-nav .nav-link2:hover{
+    color:white;
+    background-color:gray;
+}
+.heading{
+    letter-spacing: 4px;
+    padding: 1vmin;
+}
+.heading-1{
+   margin-top: 2%;
+   color: black;
+   font-size: 10vmin;
+   font-weight: bold;
+   font-family: 'Rubik';
+}
+.para-1{
+    font-size: 0.8rem;
+    color:black;
+    line-height: 2;
+
+}
+.heading-2{
+    font-size: 7vmin;
+    
+}
+.heading-2{
+    font-weight: bold;
+    font-family: 'Rubik';
+}
+.para-2{
+    font-size: 0.9rem;
+    line-height: 2;
+    font-family: 'Roboto';
+}
+.section-1{
+    padding: 10vmin 0;
+}
+.section-1 .row .col-md-6 .pray img{
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+.section-1 .row .col-md-6:last-child{
+    position: relative;
+}
+.section-1 .row .col-md-6 .panel{
+    position: absolute;
+    top: 7vmin;
+    left: -18vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    padding:  13vmin 5vmin 20vmin 10vmin;
+    box-shadow: 0px 25px 42px rgba(0,0, 0, 0.2);
+    font-family: 'Rubik';
+    z-index: 1;
+}
+
+.section-1 .row .col-md-6 .panel h1{
+    font-weight: bold;
+    padding: 0.4em 0;
+    font-size: 2em;
+}
+.section-1 .row .col-md-6 .panel{
+    font-size: 0.9em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+.cover{
+    width: 100%;
+    height: 55vmin;
+    background-image: url(pexels-mustafa-ezz-1738536.jpg);
+    background-position: -24rem -19rem;
+    position: relative;
+}
+
+.cover .content{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+}
+.cover .content >h1{
+    font-family: 'Patua One';
+    font-size: 6vmin;
+    color: whitesmoke;
+}
+.cover .content >p{
+    font-family: 'Rubik';
+    font-size: 2vmin;
+    color: #e5e5e5;
+}
+.number .rect{
+    position: relative;
+    z-index: 1;
+    background: white;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5rem;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: 1px 2px 50px 0 rgba(255, 0, 0,0.349);
+}
+.number {
+    margin-top: -15vmin;
+}
+.number .rect h1{
+    font-size: 3rem;
+    color: tomato;
+}
+.number .rect p{
+    font-family: 'Roboto';
+    font-weight: bold;
+
+}
+.purchase>h1{
+    padding-top: 15vmin;
+    padding-bottom: 0.1em;
+    font-family: 'Lobster';
+}
+.purchase>p{
+    color: rgba(0, 0, 0,0.5);
+    font-size: 3vmin;
+    padding-bottom: 10vmin;
+}
+.purchase .cards .card{
+    width: 22rem;
+    margin: 3vmin;
+}
+.cards div{
+    padding: 0;
+    margin: 0;
+}
+.cards .title{
+    background: rgba(208, 241, 241, 0.4);
+    padding: 1.4rem 2.5rem;
+    font-size: 2vmin;
+}
+.card .card-text{
+    padding: 2.5rem 3rem ;
+    color: rgba(0, 0, 0, 0.5);
+}
+.card-body .pricing{
+    background: rgba(208, 241, 241, 0.4);
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
+
+}
+
+.card-body .pricing >h1{
+    font-size: 10vmin;
+    padding: 1em 0.5em  ;
+
+}
+
+.section-3{
+    height:70vmin;
+    margin-top: 15vmin;
+    background:  rgb(242,69,1);
+    background: linear-gradient(167deg, rgba(242,69,1,1) 17%, rgba(47,177,255,1) 87%);
+}
+
+.section-3 .col-md-12 >h1{
+    padding: 2em 0 0.5em 0;
+    color: whitesmoke;
+    font-size:6vmin;
+}
+
+.section-3 .col-md-12 >p{
+    padding: 0.4em;
+    padding-bottom: 2em;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 3vmin;
+}
+
+.section-3 .desktop{
+    background: white;
+    display: inline-block;
+    border-radius: 3em;
+    padding:2vmin 4.5vmin;
+    margin: 1em;
+}
+
+.section-3 .desktop h3{
+    font-size: 4vmin;
+}
+
+.section-3 .desktop p{
+    font-size: 2vmin;
+}
+
+    .section-3 .row .col-md-6 .desktop{
+        margin-top: -20%;
+        background-color:whitesmoke ;
+    }
+.section-4 .container h1{
+    font-size: 6vmin;
+    padding-top: 14vmin;
+}
+
+.section-4 .team{
+    padding:8vmin 4vmin;
+}
+
+.section-4 .card{
+    width:22rem;
+}
+.section-4 .card .card-text{
+    padding:0.5em;
+    font-size: 3vmin;
+}
+
+.section-4 .card .card-body{
+    font-size: 1.5rem;
+}
+
+.section-4 .carousel-item .card{
+    margin-top: -85px;
+    box-shadow: 0 0 10px 0 lightgrey;
+}
+
+footer{
+    background-color: rgba(0, 0, 0, 0.815);
+    overflow-x: hidden;
+    padding: 1vmin 18vmin 10vmin  18vmin;
+
+}
+
+footer p>span{
+    color: #ff512f;
+}
+
+footer input{
+    border: none !important;
+}
+
+footer i:placeholder{
+    color: white !important;
+
+}
+
+footer .input-group .input-group-text{
+    background:  rgb(242,69,1);
+    background: linear-gradient(167deg, rgba(242,69,1,1) 17%, rgba(47,177,255,1) 87%);
+    border: none;
+}
+
+footer .column i{
+    color: tomato;
+}
+
+footer .column i+i{
+    padding: 0 0.2em;
+}
